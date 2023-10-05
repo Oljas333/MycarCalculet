@@ -1,0 +1,17 @@
+name: Newman Run2
+
+on:
+  pull_request:
+    branches:
+    - master
+
+jobs:
+  newman:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - uses: matt-ball/newman-action@master
+        with:
+          apiKey: ${{ PMAT-01HBZPCQ2F2RV9CPMRK196VCAK }}
+          collection: MycarСalсulate.postman_collection.json
+          iterationData: Calculate.json
