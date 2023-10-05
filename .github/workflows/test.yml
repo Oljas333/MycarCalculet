@@ -6,10 +6,10 @@ jobs:
   test:
     defaults:
       run:
-        working-directory: MycarСalсulate
+        working-directory: ./tests
     environment: Test 2
     name: Run tests
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
