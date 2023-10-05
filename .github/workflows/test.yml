@@ -9,5 +9,5 @@ jobs:
       - uses: actions/checkout@master
       - uses: matt-ball/newman-action@master
         with:
-          collection: MycarCreditPrograms.postman_collection.json
+          collection: MycarСalсulate.postman_collection.json
           iterationData: NewUserId.json
