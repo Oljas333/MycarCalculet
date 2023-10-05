@@ -6,8 +6,8 @@ jobs:
   test:
     defaults:
       run:
-        working-directory: ./tests
-    environment: staging
+        working-directory: ./MycarСalсulate
+    environment: Test 2
     name: Run tests
     runs-on: windows-latest
     steps:
