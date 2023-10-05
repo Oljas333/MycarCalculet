@@ -9,5 +9,5 @@ jobs:
       - uses: actions/checkout@master
       - uses: matt-ball/newman-action@master
         with:
-          collection: MycarСalсulate.postman_collection.json
+          collection: https://winter-rocket-901413.postman.co/workspace/My-Workspace~63de9da1-c061-4af4-812e-e9590d1d4fd3/collection/22938204-09e0d1a7-58b5-489f-b6fa-b82d4a4cde47?action=share&creator=22938204&active-environment=22938204-eae64383-7f0c-41e1-8b9e-50e8bf37d52e
           iterationData: Calculate.json
