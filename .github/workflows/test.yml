@@ -6,7 +6,7 @@ jobs:
   test:
     defaults:
       run:
-        working-directory: tests
+        working-directory: C:\Users\o.kussainov\Documents\MycarProject\MycarСalсulate
     environment: staging
     name: Run tests
     runs-on: windows-latest
