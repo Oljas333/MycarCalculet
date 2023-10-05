@@ -10,4 +10,4 @@ jobs:
       - uses: matt-ball/newman-action@master
         with:
           collection: MycarСalсulate.postman_collection.json
-          iterationData: NewUserId.json
+          iterationData: Calculate.json
